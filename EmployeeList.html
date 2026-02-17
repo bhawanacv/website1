@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>List of Employees</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        table{
+            border: none;
+            border-radius: 5px;
+            background-color: bisque;
+            width: 900px;
+            margin: 0 auto;
+            text-align: left;
+        }
+        caption{
+            border-top: 2px solid grey;
+        }
+        th{
+            background-color: rgb(153, 90, 90);
+            color: white;
+            height: 35px;
+            padding: 5px;
+        }
+        tr, td{
+            padding: 5PX;
+        }
+        .tr2{
+background-color: rgb(238, 199, 199);
+        }
+
+    </style>
 </head>
 <body>
     <p><a href="index.html">Back to Home</a></p>
-    <table>
+    <table >
         <thead>
             <caption><h1>List of Users</h1></caption>
             <tr>
@@ -16,10 +47,19 @@
                 <th>Email ID</th>
                 <th>Password</th>
                 <th></th>
+                <th></th>
             </tr>
         </thead>
         <tbody>
-            <tr>
+            <tr class="tr1">
+                <td>1</td>
+                <td>Bhawana</td>
+                <td>bhawanaCV@gmail.com</td>
+                <td>Pass@123</td>
+                <td><a href="#">Edit</a></td>
+                <td><a href="#">Delete</a></td>
+            </tr>
+             <tr class="tr2">
                 <td>1</td>
                 <td>Bhawana</td>
                 <td>bhawanaCV@gmail.com</td>
